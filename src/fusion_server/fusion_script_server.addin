@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AddIn Language="Python">
+  <Name>Fusion360HTTPServer</Name>
+  <Description>HTTP Server for Fusion 360 Commands</Description>
+  <FullPath>fusion_script_server.py</FullPath>
+  <ClientId>wearharmony</ClientId>
+</AddIn>

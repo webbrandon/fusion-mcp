@@ -1,0 +1,17 @@
+[project]
+name = "fusion-mcp"
+version = "0.1.0"
+description = "Fusion with your thoughts not skill."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "fastmcp==2.10.5",
+  "argparse"
+]
+
+[project.scripts]
+fusion-mcp = "fusion_mcp:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
